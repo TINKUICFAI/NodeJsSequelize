@@ -1,0 +1,26 @@
+{
+  "name": "nodejssequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.4.0"
+},
+"scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "eslint": "eslint .",
+    "pm2-dev": "pm2 start server.js --name testntrack_server -i max"
+},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
